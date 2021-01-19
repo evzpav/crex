@@ -2,11 +2,11 @@
 package backtest
 
 import (
-	. "github.com/coinrust/crex"
-	_ "github.com/coinrust/crex/backtest/statik"
-	"github.com/coinrust/crex/dataloader"
-	"github.com/coinrust/crex/log"
-	"github.com/coinrust/crex/utils"
+	. "github.com/evzpav/crex"
+	_ "github.com/evzpav/crex/backtest/statik"
+	"github.com/evzpav/crex/dataloader"
+	"github.com/evzpav/crex/log"
+	"github.com/evzpav/crex/utils"
 	"github.com/go-echarts/go-echarts/charts"
 	"github.com/go-echarts/go-echarts/datatypes"
 	"github.com/json-iterator/go"

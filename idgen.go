@@ -1,7 +1,7 @@
 package crex
 
 import (
-	"github.com/coinrust/crex/utils"
+	"github.com/evzpav/crex/utils"
 	"strconv"
 )
 

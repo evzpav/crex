@@ -1,11 +1,12 @@
 package okexfutures
 
 import (
-	"github.com/chuckpreslar/emission"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/utils"
-	"github.com/frankrap/okex-api"
 	"time"
+
+	"github.com/chuckpreslar/emission"
+	. "github.com/evzpav/crex"
+	"github.com/evzpav/crex/utils"
+	"github.com/frankrap/okex-api"
 )
 
 type FuturesWebSocket struct {

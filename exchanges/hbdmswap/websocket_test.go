@@ -1,10 +1,11 @@
 package hbdmswap
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/configtest"
 	"log"
 	"testing"
+
+	. "github.com/evzpav/crex"
+	"github.com/evzpav/crex/configtest"
 )
 
 func testWebSocket() *SwapWebSocket {

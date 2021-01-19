@@ -1,7 +1,7 @@
 package dataloader
 
 import (
-	. "github.com/coinrust/crex"
+	. "github.com/evzpav/crex"
 	"time"
 )
 

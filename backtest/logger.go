@@ -2,7 +2,7 @@ package backtest
 
 import (
 	"fmt"
-	"github.com/coinrust/crex/log"
+	"github.com/evzpav/crex/log"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"

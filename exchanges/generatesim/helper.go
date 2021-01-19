@@ -1,7 +1,7 @@
 package generatesim
 
 import (
-	. "github.com/coinrust/crex"
+	. "github.com/evzpav/crex"
 )
 
 func CalcPnl(side Direction, positionSize float64, entryPrice float64, exitPrice float64, isForwardContract bool) (pnl float64) {

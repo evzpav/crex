@@ -1,10 +1,11 @@
 package binancefutures
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/configtest"
 	"testing"
 	"time"
+
+	. "github.com/evzpav/crex"
+	"github.com/evzpav/crex/configtest"
 )
 
 func testExchange() Exchange {

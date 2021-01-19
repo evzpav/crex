@@ -1,8 +1,8 @@
 package main
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/exchanges"
+	. "github.com/evzpav/crex"
+	"github.com/evzpav/crex/exchanges"
 	"log"
 	"time"
 )

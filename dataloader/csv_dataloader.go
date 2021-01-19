@@ -2,7 +2,7 @@ package dataloader
 
 import (
 	"bufio"
-	. "github.com/coinrust/crex"
+	. "github.com/evzpav/crex"
 	"io"
 	"log"
 	"os"

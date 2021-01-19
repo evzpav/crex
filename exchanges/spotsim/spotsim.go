@@ -3,12 +3,13 @@ package spotsim
 import (
 	"encoding/json"
 	"errors"
-	"github.com/chuckpreslar/emission"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/dataloader"
 	"log"
 	"sync"
 	"time"
+
+	"github.com/chuckpreslar/emission"
+	. "github.com/evzpav/crex"
+	"github.com/evzpav/crex/dataloader"
 )
 
 type SpotSim struct {
