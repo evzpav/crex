@@ -1,7 +1,7 @@
 package backtest
 
 import (
-	"github.com/coinrust/crex"
+	"github.com/evzpav/crex"
 	"testing"
 	"time"
 )

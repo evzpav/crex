@@ -5,7 +5,7 @@
     <img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/coinrust/crex">
   </a>
 
-  <a href="https://github.com/coinrust/crex/master/LICENSE">
+  <a href="https://github.com/evzpav/crex/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
   <a href="https://www.travis-ci.com/coinrust/crex">
@@ -20,7 +20,7 @@
 **CREX** A real-time quantitative trading library in Golang.
 
 ### Backtesting
-See [@backtest](https://github.com/coinrust/crex/blob/master/examples/backtest/main.go)
+See [@backtest](https://github.com/evzpav/crex/blob/master/examples/backtest/main.go)
 
 ### Trade results:
 <div align=center><img src="https://raw.githubusercontent.com/coinrust/crex/master/images/trade_result.png" /></div>
@@ -56,8 +56,8 @@ The CREX library currently supports the following 8 cryptocurrency exchange mark
 package main
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/exchanges"
+	. "github.com/evzpav/crex"
+	"github.com/evzpav/crex/exchanges"
 	"log"
 	"time"
 )
@@ -128,8 +128,8 @@ func main() {
 package main
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/exchanges"
+	. "github.com/evzpav/crex"
+	"github.com/evzpav/crex/exchanges"
 	"log"
 )
 

@@ -1,12 +1,13 @@
 package bitmex
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/frankrap/bitmex-api"
-	"github.com/frankrap/bitmex-api/swagger"
 	"sort"
 	"strings"
 	"time"
+
+	. "github.com/evzpav/crex"
+	"github.com/frankrap/bitmex-api"
+	"github.com/frankrap/bitmex-api/swagger"
 )
 
 // BitMEX the BitMEX exchange

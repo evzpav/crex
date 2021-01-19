@@ -1,8 +1,9 @@
 package dataloader
 
 import (
-	. "github.com/coinrust/crex"
 	"time"
+
+	. "github.com/evzpav/crex"
 )
 
 type Data struct {

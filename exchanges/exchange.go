@@ -2,15 +2,16 @@ package exchanges
 
 import (
 	"fmt"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/exchanges/binancefutures"
-	"github.com/coinrust/crex/exchanges/bitmex"
-	"github.com/coinrust/crex/exchanges/bybit"
-	"github.com/coinrust/crex/exchanges/deribit"
-	"github.com/coinrust/crex/exchanges/hbdm"
-	"github.com/coinrust/crex/exchanges/hbdmswap"
-	"github.com/coinrust/crex/exchanges/okexfutures"
-	"github.com/coinrust/crex/exchanges/okexswap"
+
+	. "github.com/evzpav/crex"
+	"github.com/evzpav/crex/exchanges/binancefutures"
+	"github.com/evzpav/crex/exchanges/bitmex"
+	"github.com/evzpav/crex/exchanges/bybit"
+	"github.com/evzpav/crex/exchanges/deribit"
+	"github.com/evzpav/crex/exchanges/hbdm"
+	"github.com/evzpav/crex/exchanges/hbdmswap"
+	"github.com/evzpav/crex/exchanges/okexfutures"
+	"github.com/evzpav/crex/exchanges/okexswap"
 )
 
 func NewExchange(name string, opts ...ApiOption) Exchange {

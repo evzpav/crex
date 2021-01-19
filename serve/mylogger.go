@@ -1,11 +1,12 @@
 package serve
 
 import (
-	"github.com/coinrust/crex/log"
+	"os"
+
+	"github.com/evzpav/crex/log"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
-	"os"
 )
 
 type MyLogger struct {

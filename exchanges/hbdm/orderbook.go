@@ -2,8 +2,9 @@ package hbdm
 
 import (
 	"fmt"
+
 	"github.com/MauriceGit/skiplist"
-	. "github.com/coinrust/crex"
+	. "github.com/evzpav/crex"
 	"github.com/frankrap/huobi-api/hbdm"
 )
 
