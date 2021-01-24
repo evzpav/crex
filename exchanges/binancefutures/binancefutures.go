@@ -334,6 +334,7 @@ func (b *BinanceFutures) GetPositions(symbol string) (result []*Position, err er
 func (b *BinanceFutures) convertOrder(order *futures.Order) (result *Order) {
 	result = &Order{}
 	result.ID = fmt.Sprint(order.OrderID)
+	result.ClientOId = order.ClientOrderID
 	result.Symbol = order.Symbol
 	result.Price = utils.ParseFloat64(order.Price)
 	result.StopPx = utils.ParseFloat64(order.StopPrice)
@@ -376,6 +377,7 @@ func (b *BinanceFutures) convertOrder1(order *futures.CreateOrderResponse) (resu
 func (b *BinanceFutures) convertOrder2(order *futures.CancelOrderResponse) (result *Order) {
 	result = &Order{}
 	result.ID = fmt.Sprint(order.OrderID)
+	result.ClientOId = order.ClientOrderID
 	result.Symbol = order.Symbol
 	result.Price = utils.ParseFloat64(order.Price)
 	result.StopPx = utils.ParseFloat64(order.StopPrice)
