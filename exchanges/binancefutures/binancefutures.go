@@ -364,7 +364,7 @@ func (b *BinanceFutures) convertOrder1(order *futures.CreateOrderResponse) (resu
 	result.Type = b.convertOrderType(order.Type)
 	result.AvgPrice = utils.ParseFloat64(order.AvgPrice)
 	result.FilledAmount = utils.ParseFloat64(order.ExecutedQuantity)
-	result.Time = time.Unix(order.UpdateTime, 0)
+	result.Time = time.Unix(order.UpdateTime/int64(1e3), 0)
 	if order.TimeInForce == futures.TimeInForceTypeGTX {
 		result.PostOnly = true
 	}
