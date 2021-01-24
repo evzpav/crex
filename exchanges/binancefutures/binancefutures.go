@@ -356,6 +356,7 @@ func (b *BinanceFutures) convertOrder1(order *futures.CreateOrderResponse) (resu
 	result = &Order{}
 	result.ID = fmt.Sprint(order.OrderID)
 	result.Symbol = order.Symbol
+	result.ClientOId = order.ClientOrderID
 	result.Price = utils.ParseFloat64(order.Price)
 	result.StopPx = utils.ParseFloat64(order.StopPrice)
 	result.Amount = utils.ParseFloat64(order.OrigQuantity)
@@ -363,6 +364,7 @@ func (b *BinanceFutures) convertOrder1(order *futures.CreateOrderResponse) (resu
 	result.Type = b.convertOrderType(order.Type)
 	result.AvgPrice = utils.ParseFloat64(order.AvgPrice)
 	result.FilledAmount = utils.ParseFloat64(order.ExecutedQuantity)
+	result.Time = time.Unix(order.UpdateTime, 0)
 	if order.TimeInForce == futures.TimeInForceTypeGTX {
 		result.PostOnly = true
 	}
