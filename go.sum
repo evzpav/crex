@@ -58,8 +58,6 @@ github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAE
 github.com/OpenDNS/vegadns2client v0.0.0-20180418235048-a3fa4a771d87/go.mod h1:iGLljf5n9GjT6kc0HBvyI1nOKnGQbNB66VzSNbK5iks=
 github.com/Shopify/sarama v1.19.0/go.mod h1:FVkBWblsNy7DGZRfXLU0O9RCGt5g3g3yEuWXgklEdEo=
 github.com/Shopify/toxiproxy v2.1.4+incompatible/go.mod h1:OXgGpZ6Cli1/URJOF1DMxUHB2q5Ap20/P/eIdh4G0pI=
-github.com/adshao/go-binance/v2 v2.2.1 h1:H5tfXqDu+bx1mZqJP+5gc8ahidgDFvj683M3RStg9C4=
-github.com/adshao/go-binance/v2 v2.2.1/go.mod h1:o+84WK3DQxq9vEKV9ncRcQi+J7RFCGhM27osbECZiJQ=
 github.com/adshao/go-binance/v2 v2.2.2 h1:vKpvZupkgcUPG/CSl9uW0s5hqxzVZgNI/nEzKG1JiUs=
 github.com/adshao/go-binance/v2 v2.2.2/go.mod h1:o+84WK3DQxq9vEKV9ncRcQi+J7RFCGhM27osbECZiJQ=
 github.com/airbrake/gobrake v3.6.1+incompatible/go.mod h1:wM4gu3Cn0W0K7GUuVWnlXZU11AGBXMILnrdOU8Kn00o=
@@ -113,8 +111,6 @@ github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDk
 github.com/cloudflare/cloudflare-go v0.10.2/go.mod h1:qhVI5MKwBGhdNU89ZRz2plgYutcJ5PCekLxXn56w6SY=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
 github.com/cnkei/gospline v0.0.0-20191204072713-842a72f86331/go.mod h1:DXXGDL64/wxXgBSgmGMEL0vYC0tdvpgNhkJrvavhqDM=
-github.com/coinrust/crex v1.2.14 h1:zCbIuEiNODgJJumjG+FZDPPaPu5ppx+FvCkgGR3PxQk=
-github.com/coinrust/crex v1.2.14/go.mod h1:DzCs3rj6+1tBrXT0gxXbLxPLkihDUa0P8pxwdZ66cZ0=
 github.com/colinmarc/hdfs/v2 v2.1.1/go.mod h1:M3x+k8UKKmxtFu++uAZ0OtDU8jR3jnaZIAc6yK4Ue0c=
 github.com/containerd/cgroups v0.0.0-20190919134610-bf292b21730f/go.mod h1:OApqhQ4XNSNC13gXIwDjhOQxjWa/NxkwZXJ1EvqT0ko=
 github.com/containerd/console v0.0.0-20180822173158-c12b1e7919c1/go.mod h1:Tj/on1eG8kiEhd0+fhSDzsPAFESxzBBvdyEgyryXffw=

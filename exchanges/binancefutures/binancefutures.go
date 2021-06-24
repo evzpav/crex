@@ -8,10 +8,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/adshao/go-binance/v2/futures"
 	. "github.com/evzpav/crex"
 	"github.com/evzpav/crex/utils"
-	"github.com/adshao/go-binance/v2/futures"
-
 )
 
 // BinanceFutures the Binance futures exchange
@@ -210,6 +209,8 @@ func (b *BinanceFutures) PlaceOrder(symbol string, direction Direction, orderTyp
 	case OrderTypeStopLimit:
 		_orderType = futures.OrderTypeStop
 		service = service.StopPrice(fmt.Sprint(params.StopPx))
+	case OrderTypeTrailingStopMarket:
+		_orderType = futures.OrderTypeTrailingStopMarket
 	}
 
 	if orderType != OrderTypeMarket {
@@ -448,6 +449,8 @@ func (b *BinanceFutures) convertOrderType(orderType futures.OrderType) OrderType
 		return OrderTypeStopLimit
 	case futures.OrderTypeStopMarket:
 		return OrderTypeStopMarket
+	case futures.OrderTypeTrailingStopMarket:
+		return OrderTypeTrailingStopMarket
 	default:
 		return OrderTypeLimit
 	}
