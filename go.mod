@@ -8,7 +8,6 @@ require (
 	github.com/adshao/go-binance/v2 v2.2.2
 	github.com/beaquant/utils v0.0.0-20210215234655-6b25ba8e2337
 	github.com/chuckpreslar/emission v0.0.0-20170206194824-a7ddd980baf9
-	github.com/coinrust/crex v1.2.14 // indirect
 	github.com/frankrap/bitmex-api v1.0.1
 	github.com/frankrap/bybit-api v1.0.3
 	github.com/frankrap/deribit-api v1.0.3
@@ -16,6 +15,7 @@ require (
 	github.com/frankrap/okex-api v1.0.4
 	github.com/go-echarts/go-echarts v1.0.0
 	github.com/json-iterator/go v1.1.10
+	github.com/micro/go-micro v1.18.0 // indirect
 	github.com/rakyll/statik v0.1.7
 	github.com/rocketlaunchr/dataframe-go v0.0.0-20210217092801-7a54a6d5685b
 	github.com/sirupsen/logrus v1.8.1
