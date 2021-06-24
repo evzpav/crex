@@ -75,3 +75,13 @@ func TestBinanceFutures_GetOpenOrders(t *testing.T) {
 	}
 	t.Logf("%#v", orders)
 }
+
+func TestBinanceFutures_ChangeLeverage(t *testing.T) {
+	ex := testExchange()
+	binance := ex.(*BinanceFutures)
+	err := binance.ChangeLeverage("BTCUSDT", 50)
+	if err != nil {
+		t.Error(err)
+		return
+	}
+}
